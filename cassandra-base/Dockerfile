@@ -32,6 +32,6 @@ ENV CASSANDRA_CONFIG /etc/cassandra
 # See https://groups.google.com/forum/#!msg/docker-dev/8TM_jLGpRKU/dewIQhcs7oAJ
 RUN rm -f /etc/security/limits.d/cassandra.conf
 
-EXPOSE 7199 7000 7001 9160 9042 22 8012 61621
+EXPOSE 7199 7000 7001 9160 9042 8012 61621
 
 CMD [""]
